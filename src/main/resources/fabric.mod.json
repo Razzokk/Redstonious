@@ -2,34 +2,32 @@
   "schemaVersion": 1,
   "id": "redstonious",
   "version": "${version}",
-
   "name": "Redstonious",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A quality of life redstone mode that will make working with redstone great again!",
   "authors": [
-    "Me!"
+    "Razzokk"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Razzokk/Redstonious"
   },
-
   "license": "CC0-1.0",
   "icon": "assets/redstonious/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
       "rzk.redstonious.Redstonious"
+    ],
+    "client": [
+      "rzk.redstonious.client.RedstoniousClient"
+    ],
+    "fabric-datagen": [
+      "rzk.redstonious.datagen.DataGeneration"
     ]
   },
-
   "depends": {
     "fabricloader": ">=0.14.11",
     "fabric-api": "*",
     "minecraft": "~1.19.3",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

@@ -10,11 +10,13 @@ import rzk.redstonious.item.ModItems;
 
 public class ModBlocks
 {
-	public static final Block ANALOG_REDSTONE_BLOCK = new AnalogRedstoneBlock();
+	public static final Block REDSTONE_EMITTER = new RedstoneEmitterBlock();
+	public static final Block ANALOG_LAMP = new AnalogLamp();
 
 	public static void registerBlocks()
 	{
-		registerBlock("analog_redstone_block", ANALOG_REDSTONE_BLOCK);
+		registerBlock("redstone_emitter", REDSTONE_EMITTER);
+		registerBlock("analog_lamp", ANALOG_LAMP);
 	}
 
 	public static void registerBlockWithoutItem(String name, Block block)

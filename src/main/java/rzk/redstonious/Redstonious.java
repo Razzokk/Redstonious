@@ -1,6 +1,9 @@
 package rzk.redstonious;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,5 +30,11 @@ public class Redstonious implements ModInitializer
 		LOGGER.info("Registering items...");
 		ModItems.registerItems();
 		LOGGER.info("Registered items");
+
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries ->
+		{
+			entries.add(ModBlocks.REDSTONE_EMITTER);
+			entries.add(ModBlocks.ANALOG_LAMP);
+		});
 	}
 }

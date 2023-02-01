@@ -1,0 +1,8 @@
+{
+  "parent": "redstonious:block/redstone_emitter_template",
+  "textures": {
+    "bottom": "redstonious:block/redstone_emitter/bottom",
+    "side": "redstonious:block/redstone_emitter/side",
+    "top": "redstonious:block/redstone_emitter/top_14"
+  }
+}
