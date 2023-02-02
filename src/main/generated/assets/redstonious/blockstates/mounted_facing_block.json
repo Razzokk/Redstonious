@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=east,mounted=down": {
+      "model": "redstonious:block/mounted_facing_block",
+      "x": 0,
+      "y": 90
+    },
+    "facing=east,mounted=east": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east,mounted=north": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,mounted=south": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,mounted=up": {
+      "model": "redstonious:block/mounted_facing_block",
+      "x": 180,
+      "y": 270
+    },
+    "facing=east,mounted=west": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 90,
+      "y": 0
+    },
+    "facing=north,mounted=down": {
+      "model": "redstonious:block/mounted_facing_block",
+      "x": 0,
+      "y": 0
+    },
+    "facing=north,mounted=east": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 0,
+      "y": 180
+    },
+    "facing=north,mounted=north": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 0,
+      "y": 90
+    },
+    "facing=north,mounted=south": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 0,
+      "y": 270
+    },
+    "facing=north,mounted=up": {
+      "model": "redstonious:block/mounted_facing_block",
+      "x": 180,
+      "y": 180
+    },
+    "facing=north,mounted=west": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 0,
+      "y": 0
+    },
+    "facing=south,mounted=down": {
+      "model": "redstonious:block/mounted_facing_block",
+      "x": 0,
+      "y": 180
+    },
+    "facing=south,mounted=east": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 180,
+      "y": 180
+    },
+    "facing=south,mounted=north": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 180,
+      "y": 90
+    },
+    "facing=south,mounted=south": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 180,
+      "y": 270
+    },
+    "facing=south,mounted=up": {
+      "model": "redstonious:block/mounted_facing_block",
+      "x": 180,
+      "y": 0
+    },
+    "facing=south,mounted=west": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,mounted=down": {
+      "model": "redstonious:block/mounted_facing_block",
+      "x": 0,
+      "y": 270
+    },
+    "facing=west,mounted=east": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 270,
+      "y": 180
+    },
+    "facing=west,mounted=north": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 270,
+      "y": 90
+    },
+    "facing=west,mounted=south": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 270,
+      "y": 270
+    },
+    "facing=west,mounted=up": {
+      "model": "redstonious:block/mounted_facing_block",
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,mounted=west": {
+      "model": "redstonious:block/mounted_facing_block_wall",
+      "x": 270,
+      "y": 0
+    }
+  }
+}

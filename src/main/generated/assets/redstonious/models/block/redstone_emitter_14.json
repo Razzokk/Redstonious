@@ -1,5 +1,5 @@
 {
-  "parent": "redstonious:block/redstone_emitter_template",
+  "parent": "redstonious:block/template/redstone_emitter",
   "textures": {
     "bottom": "redstonious:block/redstone_emitter/bottom",
     "side": "redstonious:block/redstone_emitter/side",

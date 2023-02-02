@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import rzk.redstonious.block.ModBlocks;
+import rzk.redstonious.blockentity.ModBlockEntities;
 import rzk.redstonious.item.ModItems;
 
 public class Redstonious implements ModInitializer
@@ -31,10 +32,16 @@ public class Redstonious implements ModInitializer
 		ModItems.registerItems();
 		LOGGER.info("Registered items");
 
+		LOGGER.info("Registering block entities...");
+		ModBlockEntities.registerBlockEntities();
+		LOGGER.info("Registered block entities");
+
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries ->
 		{
 			entries.add(ModBlocks.REDSTONE_EMITTER);
 			entries.add(ModBlocks.ANALOG_LAMP);
+			entries.add(ModBlocks.MOUNTED_FACING_BLOCK);
+			entries.add(ModBlocks.TEST_BLOCK);
 		});
 	}
 }

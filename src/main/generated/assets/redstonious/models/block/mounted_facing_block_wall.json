@@ -1,0 +1,8 @@
+{
+  "parent": "redstonious:block/template/mounted_facing_block_wall",
+  "textures": {
+    "bottom": "redstonious:block/mounted_facing_block_bottom",
+    "side": "redstonious:block/mounted_facing_block_side",
+    "top": "redstonious:block/mounted_facing_block_top"
+  }
+}

@@ -25,7 +25,7 @@ import static net.minecraft.state.property.Properties.POWER;
 
 public class RedstoneEmitterBlock extends HorizontalFacingBlock
 {
-	private static final VoxelShape SHAPE = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 2.0, 16.0);
+	private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 2, 16);
 
 	public RedstoneEmitterBlock()
 	{

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "redstonious:block/test_block"
+    }
+  }
+}
